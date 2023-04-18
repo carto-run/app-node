@@ -5,7 +5,7 @@
 ```
 tanzu apps workload create backstage \
   --namespace dev \
-  --git-branch main \
+  --git-branch master \
   --git-repo https://github.com/backstage/backstage \
   --label apps.tanzu.vmware.com/has-tests=true \
   --label app.kubernetes.io/part-of=backstage \
